@@ -309,6 +309,7 @@ nav a:hover::before {
 .main-btn a:hover {
 	background-color: #fff;
 	color: #232323!important;
+
 }
 
 
@@ -445,7 +446,7 @@ nav a:hover::before {
 	text-decoration: underline;
 }
 
-.second-content .main-btn a {
+.left-content div a {
 	display: inline-block;
 	border: 2px solid #fff;
 	padding: 8px 15px;
@@ -456,8 +457,40 @@ nav a:hover::before {
 	text-decoration: none;
 	transition: all 0.5s;
 }
-
-
+.left-content div a:hover{
+background-color: #fff;
+	color: #232323!important;
+}
+.right-content div a {
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+.right-content div a:hover{
+background-color: #fff;
+	color: #232323!important;
+}
+.third-content div a{
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+.third-content div a:hover{
+background-color: #fff;
+	color: #232323!important;
+}
 .third-content {
 	text-align: left;
 	padding: 30px;
@@ -624,7 +657,7 @@ nav a:hover::before {
 	padding: 50px 0px 50px 50px;
 }
 
-.fifth-content #contact {
+.fifth-content #contactForm {
 	padding: 50px 50px 50px 50px;
 }
 
